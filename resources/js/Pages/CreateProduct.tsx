@@ -64,7 +64,6 @@ const CreateProduct = () => {
                                 setData("description", e.target.value)
                             }
                             error={errors.description}
-                            rows={4}
                             required
                         />
 

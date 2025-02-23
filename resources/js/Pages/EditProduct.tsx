@@ -66,7 +66,7 @@ const EditProduct = ({ product }: Props) => {
                         <ImageUpload
                             onChange={(file) => setData("image", file)}
                             error={errors.image}
-                            defaultImage={product.image}
+                            // defaultImage={product.image}
                         />
 
                         <FormInput
@@ -86,7 +86,6 @@ const EditProduct = ({ product }: Props) => {
                                 setData("description", e.target.value)
                             }
                             error={errors.description}
-                            rows={4}
                             required
                         />
 
