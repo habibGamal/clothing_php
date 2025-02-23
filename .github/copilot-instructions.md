@@ -1,0 +1,6 @@
+- this project uses react tailwindcss
+- for any UI modification review consistency in colors , buttons , identity , fonts , titles (refactor common things to css classes or components)
+- for any large component split it to smaller resusable components
+- Create a clean, modern, and responsive UI component using React and Tailwind CSS.
+- labels and titles in arabic language
+- this app about second hand pre-owned pieces(clothes) where some pepole sell their colthes and others buying it , the project doesn't has cart style or something like this but it has 2 types of products 1 - products that pepole can bid on thier prices to take it 2 - products that pepole can mark it as favorate and join givaway on it
